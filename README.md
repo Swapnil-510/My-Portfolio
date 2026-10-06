@@ -1,16 +1,77 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A responsive personal portfolio website showcasing my skills, projects, education, certifications, and software development journey.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 About
 
-## React Compiler
+This is my personal developer portfolio built to present my technical skills, projects, and experience in a simple and professional interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The portfolio highlights my work in **software development, backend development, and AI/ML**, along with my academic background and ongoing learning journey.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 👨‍💻 Personal introduction and profile
+- 🛠️ Technical skills showcase
+- 🚀 Project portfolio
+- 📄 Resume section
+- 🎓 Education and certifications
+- 📬 Contact section
+- 📱 Responsive design
+- 🎨 Modern UI using Tailwind CSS
+- 💾 Backend integration for storing application data
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Database
+
+- MySQL
+
+### Tools
+
+- VS Code
+- Git
+- GitHub
+- NPM
+
+---
+
+## 🏗️ Project Structure
+
+```text
+Portfolio
+│
+├── public/
+│   ├── images/
+│   └── assets/
+│
+├── src/
+│   ├── pages/
+│   ├── components/
+│   └── styles/
+│
+├── server/
+│   ├── routes/
+│   ├── controllers/
+│   └── ...
+│
+├── package.json
+├── .gitignore
+└── README.md
