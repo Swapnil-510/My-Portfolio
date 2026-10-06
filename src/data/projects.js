@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 1,
-    title: "Mock Test Web App",
-    desc: "MCQ-based test engine with real-time scoring.",
-    tech: ["Django", "MongoDB", "Python"],
-    github: "https://github.com/Swapnil-510/mock-test",
+    title: "AI Research Assistant",
+    desc: "AI-powered research workspace for uploading papers and asking document-grounded questions using semantic retrieval.",
+    tech: ["React", "FastAPI", "Gemini", "ChromaDB", "PostgreSQL"],
+    github: "https://github.com/Swapnil-510/AI-Research-Assistant",
   },
   {
     id: 2,
@@ -13,11 +13,4 @@ export const projects = [
     tech: ["Spring Boot", "MongoDB", "Java"],
     github: "https://github.com/Swapnil-510/mind-track",
   },
-  {
-    id: 3,
-    title: "JARVIS AI",
-    desc: "Voice assistant with wake-word detection and Claude integration.",
-    tech: ["Python", "pvporcupine", "Claude API"],
-    github: "https://github.com/Swapnil-510/jarvis",
-  },
-]
+];
