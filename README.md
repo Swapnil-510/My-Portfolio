@@ -1,28 +1,50 @@
-# 🌐 Personal Portfolio
+# SWAPNIL DOMBE — Personal Portfolio
 
-> A responsive personal portfolio website showcasing my skills, projects, education, certifications, and software development journey.
+> A modern, responsive developer portfolio built with React and Vite to showcase my projects, technical skills, achievements, certifications, and professional profile.
+
+<p align="center">
+  <a href="https://swapnil-dombe.vercel.app">
+    <strong>🌐 Live Portfolio</strong>
+  </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/Swapnil-510/my-portfolio">
+    <strong>💻 GitHub Repository</strong>
+  </a>
+</p>
 
 ---
 
-## 📌 About
+## 📖 About
 
-This is my personal developer portfolio built to present my technical skills, projects, and experience in a simple and professional interface.
+This is my personal portfolio website, designed as a professional space to present my work, technical background, and software development journey.
 
-The portfolio highlights my work in **software development, backend development, and AI/ML**, along with my academic background and ongoing learning journey.
+The portfolio focuses on:
+
+- Software Development
+- Backend Engineering
+- Artificial Intelligence & Machine Learning
+- Data Structures & Algorithms
+
+It includes dedicated sections for my profile, projects, skills, achievements, certifications, and contact information.
 
 ---
 
-## ✨ Features
+## ✨ Highlights
 
-- 👨‍💻 Personal introduction and profile
-- 🛠️ Technical skills showcase
-- 🚀 Project portfolio
-- 📄 Resume section
-- 🎓 Education and certifications
+- ⚡ Built with React and Vite
+- 📱 Fully responsive layout
+- 🎨 Minimalist, modern UI
+- 🦇 Cinematic Batman-themed background
+- 🧭 Fixed navigation with smooth scrolling
+- 📂 Structured project showcase
+- 🛠️ Categorized technical skills
+- 🏆 Achievements section
+- 📜 Certifications section
+- 📄 Resume download
 - 📬 Contact section
-- 📱 Responsive design
-- 🎨 Modern UI using Tailwind CSS
-- 💾 Backend integration for storing application data
+- ✨ Scroll-based fade-up animations
+- 📱 Mobile navigation menu
+- 🚀 Deployed on Vercel
 
 ---
 
@@ -30,48 +52,66 @@ The portfolio highlights my work in **software development, backend development,
 
 ### Frontend
 
-- HTML
-- CSS
+- React.js
 - JavaScript
+- HTML5
+- CSS3
 - Tailwind CSS
 
-### Backend
+### Build & Development
 
-- Node.js
-- Express.js
-
-### Database
-
-- MySQL
+- Vite
+- npm
 
 ### Tools
 
 - VS Code
 - Git
 - GitHub
-- NPM
+
+### Deployment
+
+- Vercel
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ Architecture
+
+The portfolio uses a component-based React structure so that individual sections can be developed and maintained independently.
 
 ```text
-Portfolio
+my-portfolio/
 │
 ├── public/
-│   ├── images/
-│   └── assets/
+│   ├── Swapnil_Resume.pdf
+│   └── batman-bg.png
 │
 ├── src/
-│   ├── pages/
+│   │
 │   ├── components/
-│   └── styles/
-│
-├── server/
-│   ├── routes/
-│   ├── controllers/
-│   └── ...
+│   │   ├── About.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Background.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── data/
+│   │   └── projects.js
+│   │
+│   ├── hooks/
+│   │   └── useFadeUp.js
+│   │
+│   ├── assets/
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 │
 ├── package.json
+├── vite.config.js
 ├── .gitignore
 └── README.md
